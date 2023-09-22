@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding-bottom: 0;
+    background-color: #EBE4C6;
+    overflow: hidden;
+}
+
+#h-s{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+    flex-flow: column;
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+    background-color: ;
+}
+
+#receita{
+    box-shadow: 0 4px 30px  rgba(35, 35, 35, 1);
+    border-radius: 12px;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: justify;
+    padding: 10px 20px;
+}
+
+#a, #b{
+    text-decoration: underline black;
+}
+
+h1, h2{
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 1);
+    border-radius: 12px;
+    padding: 10px 20px;
+}
+
+#tema-escuro{
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 1);
+    border-radius: 12px;
+    background-color: #EBE4C6;
+    padding: 10px 20px;
+    position: absolute;
+    right: 3%;
+    top: 3%;
+}
+
+#tema-escuro:hover{
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 1);
+    background-color: rgb(156, 146, 110);
+    border-radius: 12px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.tema-escuro {
+    background-color: #131D33;
+    color: white;
+}
+
+.tema-escuro #tema-escuro {
+    background-color: rgb(156, 146, 110);
+    color: white;
+}
+
+.tema-escuro, h1, h2, #receita{
+    
+    box-shadow: 0 1px 10px;
+}
+
+.tema-escuro #tema-escuro {
+    background-color: #fa4343;
+    color: white;
+}
+
+
+
+
